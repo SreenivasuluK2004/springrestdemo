@@ -1,4 +1,4 @@
-package com.example.controllers;
+package com.example.springrestdemo.controllers;
 
 public class Book {
 	  
