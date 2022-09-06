@@ -1,6 +1,7 @@
+sudo: required
 language: java
 jdk:
- oraclejdk11
+- oraclejdk11
  
 script:
- ./mvnw clean install
+- ./mvnw clean install -B
