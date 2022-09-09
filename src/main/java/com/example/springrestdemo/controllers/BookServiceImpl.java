@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class BookServiceImpl implements BookService {
   
-    Set<Book> bookList = new HashSet<Book>();
+    private Set<Book> bookList = new HashSet<Book>();
   
     @Override
     public HashSet<Book> findAllBook() {
