@@ -12,8 +12,18 @@ public class BookServiceImpl implements BookService {
   
     @Override
     public HashSet<Book> findAllBook() {
-        if (bookList.isEmpty())
-            return null;
+        if (bookList.isEmpty()) {
+        	
+        	Book bk= new Book();
+        	bk.setId(1000);
+        	bk.setName("JAVA");
+        	bk.setTitle("Head First JAVA");
+        	
+        	bookList.add(bk);
+        	
+        	return (HashSet<Book>) bookList;
+        }
+            
         else
             return (HashSet<Book>) bookList;
     }
