@@ -29,12 +29,12 @@ public class BookServiceImpl implements BookService {
         	
         	bookList.add(bk1);
         	
-        	bk1= new Book();
-        	bk1.setId(1002);
-        	bk1.setName("JAVA-3");
-        	bk1.setTitle("Head First JAVA-3");
+        	Book bk2= new Book();
+        	bk2.setId(1002);
+        	bk2.setName("JAVA-3");
+        	bk2.setTitle("Head First JAVA-3");
         	
-        	bookList.add(bk1);
+        	bookList.add(bk2);
         	
         	return (HashSet<Book>) bookList;
         }
