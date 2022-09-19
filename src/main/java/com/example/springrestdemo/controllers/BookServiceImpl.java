@@ -30,9 +30,9 @@ public class BookServiceImpl implements BookService {
         	bookList.add(bk1);
         	
         	Book bk2= new Book();
-        	bk2.setId(1002);
-        	bk2.setName("JAVA-4");
-        	bk2.setTitle("Head First JAVA-4");
+        	bk2.setId(1012);
+        	bk2.setName("JAVA-5");
+        	bk2.setTitle("Head First JAVA-5");
         	
         	bookList.add(bk2);
         	
