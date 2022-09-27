@@ -9,6 +9,6 @@ before_deploy:
 deploy:
  provider: heroku
  api_key: $HEROKU_TOKEN
- app: "spring-rest-demo2"
+ app: "spring-rest-demo2" 
  on:
   branch: alpha-branch
