@@ -27,6 +27,8 @@ public class BookServiceImpl implements BookService {
         	bk1.setName("JAVA-2");
         	bk1.setTitle("Head First JAVA-2");
         	
+        	bookList.add(bk1);
+        	
         	Book bk4= new Book();
         	bk4.setId(1021);
         	bk4.setName("JAVA-20");
