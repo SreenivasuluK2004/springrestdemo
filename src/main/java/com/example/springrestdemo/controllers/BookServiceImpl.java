@@ -36,6 +36,13 @@ public class BookServiceImpl implements BookService {
         	
         	bookList.add(bk2);
         	
+        	Book bk6= new Book();
+        	bk6.setId(1024);
+        	bk6.setName("AWS");
+        	bk6.setTitle("AWS Cloud");
+        	
+        	bookList.add(bk6);
+
         	return (HashSet<Book>) bookList;
         }
             
