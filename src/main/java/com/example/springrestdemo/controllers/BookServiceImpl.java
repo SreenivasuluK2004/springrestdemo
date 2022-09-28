@@ -50,6 +50,13 @@ public class BookServiceImpl implements BookService {
         	
         	bookList.add(bk6);
         	
+        	Book bk7= new Book();
+        	bk7.setId(2002);
+        	bk7.setName("Apache Kafka");
+        	bk7.setTitle("Apache Kafka");
+        	
+        	bookList.add(bk7);
+        	
         	return (HashSet<Book>) bookList;
         }
             
