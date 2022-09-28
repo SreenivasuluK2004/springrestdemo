@@ -43,6 +43,13 @@ public class BookServiceImpl implements BookService {
         	
         	bookList.add(bk5);
         	
+        	Book bk6= new Book();
+        	bk6.setId(2001);
+        	bk6.setName("Apache Camel");
+        	bk6.setTitle("Apache Camel");
+        	
+        	bookList.add(bk6);
+        	
         	return (HashSet<Book>) bookList;
         }
             
